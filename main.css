@@ -6,6 +6,7 @@
 }
 
 body {
+  padding-top: 60px;
   background: #111;
   color: #fefefe;
   font-family: "Source Sans Pro", sans-serif;
@@ -21,6 +22,9 @@ a:hover {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +82,7 @@ a:hover {
 .apis-list a {
   display: inline-block;
 }
-@madia (min-width: 600px) {
+@media (min-width: 600px) {
   .apis-list {
     columns: 2;
   }
