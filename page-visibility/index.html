@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Page Visibility API</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <a href="/" class="header-back">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 32.635 32.635"
+          >
+            <path d="M32.135 16.817H.5a.5.5 0 0 1 0-1h31.635a.5.5 0 0 1 0 1z" />
+            <path
+              d="M13.037 29.353a.502.502 0 0 1-.354-.146L.146 16.669a.504.504 0 0 1 0-.708L12.684 3.429a.5.5 0 0 1 .707.707L1.207 16.315l12.184 12.184a.5.5 0 0 1-.354.854z"
+            />
+          </svg>
+        </a>
+        <h1>Page Visibility API</h1>
+      </div>
+    </header>
+    <main class="content">
+      <div class="container">
+        <video
+          id="video"
+          src="https://ia801904.us.archive.org/7/items/youtube-7JDaOOw0MEE/A_Trip_to_the_Moon_Le_Voyage_dans_la_lune_-_1902-7JDaOOw0MEE.mp4"
+          controls
+          width="100%"
+        ></video>
+        <div class="details">
+          <p>
+            When you view or open another tab the video should pause. This can
+            be used for reducing power usage or stopping annoying background
+            audio.
+          </p>
+          <p>
+            Video:
+            <a
+              href="https://archive.org/details/youtube-7JDaOOw0MEE"
+              target="_blank"
+              >A Trip to the Moon</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API"
+              target="_blank"
+              >MDN Tutorial</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
